@@ -1,0 +1,7 @@
+interface:
+  display_name: "Lab Paradigm Distiller"
+  short_description: "Distill lab paper lines into research paradigms"
+  default_prompt: "Use $lab-paradigm-distiller to distill this research group's paper lineage into a reusable paradigm skill."
+
+policy:
+  allow_implicit_invocation: true

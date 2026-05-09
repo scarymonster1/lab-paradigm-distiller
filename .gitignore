@@ -1,0 +1,11 @@
+# Generated research corpora can contain copyrighted papers or private notes.
+# Keep template placeholders, but do not commit real generated source material.
+examples/*/sources/papers/*
+!examples/*/sources/papers/.gitkeep
+examples/*/sources/texts/*
+!examples/*/sources/texts/.gitkeep
+
+# Local caches
+__pycache__/
+*.pyc
+
